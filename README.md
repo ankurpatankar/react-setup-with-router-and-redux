@@ -36,6 +36,20 @@ npm install --save redux-thunk
 #### Why use redux thunk and what are Async actions
 https://redux.js.org/docs/advanced/AsyncActions.html
 
+### Install React Router
+npm install --save react-router-dom
+
+### Define Routes
+Add a `routes.js` file which defines all routes for the application
+The routes.js file includes the following 4 imports from `react-router-dom`
+`BrowserRouter:` This is the new Router component we define routes inside.
+`Route:` This is the route where we define the path & component to load on that route.
+`Switch:` This is a new component in react-router V4 which is used to group two or more routes together.
+`Link:` The link component is used to create an tag to link routes together.
+
+### Import routes into the application
+Import routes defined in `routes.js` into the `index.js` file and use them inside the Provider
+
 ### Start server
 ### Added the following in package.json
 ### "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
