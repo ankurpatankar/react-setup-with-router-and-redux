@@ -28,6 +28,7 @@ npm install --save redux react-redux
 
 ### Configure Redux
 Add store.js
+`window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__(applyMiddleware(thunk),)` allows us to see the redux store in dev tools
 
 ### Install redux-thunk
 npm install --save redux-thunk
