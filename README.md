@@ -1,4 +1,6 @@
-###### Sourced from https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
+###### Sourced from
+1) https://codeburst.io/setting-up-a-react-project-from-scratch-d62f38ab6d97
+2) http://manojsinghnegi.com/blog/2017/09/03/Implementing-redux-and-react-router-v4-in-your-react-app/
 
 ### Init NPM Project
 npm init
@@ -20,6 +22,18 @@ touch webpack.dev.config.js
 ### CSS Loader
 npm install --save-dev style-loader css-loader less-loader
 npm install --save-dev less
+
+### Install Redux
+npm install --save redux react-redux
+
+### Configure Redux
+Add store.js
+
+### Install redux-thunk
+npm install --save redux-thunk
+
+#### Why use redux thunk and what are Async actions
+https://redux.js.org/docs/advanced/AsyncActions.html
 
 ### Start server
 ### Added the following in package.json
