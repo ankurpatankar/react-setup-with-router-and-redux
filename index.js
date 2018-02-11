@@ -8,10 +8,13 @@ import App from './containers/App';
 import { Provider } from 'react-redux';
 import store from './store';
 
+// Application Routes
+import AppRoutes from './routes';
+
 ReactDOM.render(
     (
         <Provider store={ store } >
-            <App />
+            <AppRoutes />
         </Provider>
     ),
     document.getElementById('app')
